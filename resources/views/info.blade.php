@@ -1,5 +1,5 @@
 @extends('layouts.app')
-
+@section('page_title','about this page!')
 @section('content')
 <div class="container">
     <div class="row justify-content-center">
@@ -14,7 +14,8 @@
                         </div>
                     @endif
                     {{ auth()->user()->name ?? '' }}
-                    {{ __('You are logged in!') }}
+                    
+                    {{ __('Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam minus autem, non alias cumque ducimus atque! Aut veniam officia, deserunt nam unde dicta dolorum fugit praesentium voluptas inventore debitis aliquid?') }}
                 </div>
             </div>
         </div>
